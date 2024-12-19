@@ -29,26 +29,26 @@ Este é um sistema de Relógio Ponto desenvolvido em Laravel 10, com PHP 8.1, ut
 
 2.  Instale as dependências do PHP e do front-end:
 ``` 
-	 composer install 
-     npm install 
+composer install 
+npm install 
 ```
 
 3.  Configure o .env 
 ```
-	cp .env.example .env 
+cp .env.example .env 
 ```
 4. Execute o ambiente Docker:
-    ``` 
-	docker-compose up -d
-	```
+``` 
+docker-compose up -d
+```
 5.  Gere a chave da aplicação Laravel(Dentro do container App): 
 ```
-	docker exec -it app(nome do seu container app) php artisan key:generate
+docker exec -it app(nome do seu container app) php artisan key:generate
 ```
 
 6. Rode as migrações para criar o banco de dados:
 ```
-	docker exec -it app(nome do seu containre app) php artisan migrate
+docker exec -it app(nome do seu containre app) php artisan migrate
 ```
 7. Acesse o sistema no navegador: 
  - URL: [http://localhost:8989](http://localhost:8989)
