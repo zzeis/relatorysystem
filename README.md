@@ -22,10 +22,10 @@ Este é um sistema de Relógio Ponto desenvolvido em Laravel 10, com PHP 8.1, ut
 ## Setup do Ambiente
 
 1. Clone este repositório:
-   ```bash
-   git clone https://github.com/zzeis/relogioponto.git
-   cd relogio-ponto
-   ```
+```bash
+git clone https://github.com/zzeis/relogioponto.git
+cd relogio-ponto
+```
 
 2.  Instale as dependências do PHP e do front-end:
 ``` 
